@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ToDo App" Height="500" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/> <!-- Side Menu -->
+            <ColumnDefinition Width="*"/> <!-- Main Content -->
+        </Grid.ColumnDefinitions>
+        
+        <!-- Side Menu -->
+        <local:SideMenu Grid.Column="0" />
+        
+        <!-- Main Content -->
+        <Grid Grid.Column="1">
+            <TextBlock Text="Welcome to ToDo App!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"/>
+        </Grid>
     </Grid>
 </Window>

@@ -8,4 +8,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Fonts\Oswald-Bold.ttf" />
+    <None Remove="Fonts\Oswald-ExtraLight.ttf" />
+    <None Remove="Fonts\Oswald-Light.ttf" />
+    <None Remove="Fonts\Oswald-Medium.ttf" />
+    <None Remove="Fonts\Oswald-Regular.ttf" />
+    <None Remove="Fonts\Oswald-SemiBold.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Fonts\Oswald-Bold.ttf" />
+    <Content Include="Fonts\Oswald-ExtraLight.ttf" />
+    <Content Include="Fonts\Oswald-Light.ttf" />
+    <Content Include="Fonts\Oswald-Medium.ttf" />
+    <Content Include="Fonts\Oswald-Regular.ttf" />
+    <Content Include="Fonts\Oswald-SemiBold.ttf" />
+  </ItemGroup>
+
 </Project>
