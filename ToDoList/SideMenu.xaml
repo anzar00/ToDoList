@@ -8,12 +8,12 @@
         
                 <!-- Menu Title and Button -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,0">
-                    <TextBlock Text="Menu" FontFamily="/ToDoList;component/Fonts/#Oswald" FontWeight="SemiBold" FontSize="32" Foreground="Black" Margin="41,32,0,0" />
+                    <TextBlock Text="Menu" FontFamily="/ToDoList;component/Resources/Fonts/#Oswald" FontWeight="SemiBold" FontSize="32" Foreground="Black" Margin="41,32,0,0" />
                 </StackPanel>
 
                 <!-- Tasks Area-->
                 <StackPanel Margin="10,10,10,0" Width="250">
-                    <TextBlock Text="Tasks" FontFamily="/ToDoList;component/Fonts/#Oswald" FontWeight="SemiBold" FontSize="15" Foreground="Black" />
+                    <TextBlock Text="Tasks" FontFamily="/ToDoList;component/Resources/Fonts/#Oswald" FontWeight="SemiBold" FontSize="15" Foreground="Black" />
                     <Button Content="Home" Click="NavigateToHomePage" />
                     <Button Content="Upcoming" Click="NavigateToUpcomingPage" />
                     <Button Content="Today" Click="NavigateToTodayPage" />
@@ -22,7 +22,7 @@
 
                 <!-- Lists Area -->
                 <StackPanel Margin="10,10,10,0" Width="250">
-                    <TextBlock Text="Lists" FontFamily="/ToDoList;component/Fonts/#Oswald" FontWeight="SemiBold" FontSize="15" Foreground="Black" />
+                    <TextBlock Text="Lists" FontFamily="/ToDoList;component/Resources/Fonts/#Oswald" FontWeight="SemiBold" FontSize="15" Foreground="Black" />
                     <Button Content="Work" Style="{StaticResource SideMenuButtonWithIconStyle}" Click="NavigateToListWork" />
                     <Button Content="Personal" Style="{StaticResource SideMenuButtonWithIconStyle}" Click="NavigateToListPersonal" />
                     <Button Content="Study" Style="{StaticResource SideMenuButtonWithIconStyle}" Click="NavigateToListStudy" />

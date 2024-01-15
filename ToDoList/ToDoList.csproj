@@ -9,21 +9,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Fonts\Oswald-Bold.ttf" />
-    <None Remove="Fonts\Oswald-ExtraLight.ttf" />
-    <None Remove="Fonts\Oswald-Light.ttf" />
-    <None Remove="Fonts\Oswald-Medium.ttf" />
-    <None Remove="Fonts\Oswald-Regular.ttf" />
-    <None Remove="Fonts\Oswald-SemiBold.ttf" />
+    <None Remove="Resources\Fonts\Oswald-Bold.ttf" />
+    <None Remove="Resources\Fonts\Oswald-ExtraLight.ttf" />
+    <None Remove="Resources\Fonts\Oswald-Light.ttf" />
+    <None Remove="Resources\Fonts\Oswald-Medium.ttf" />
+    <None Remove="Resources\Fonts\Oswald-Regular.ttf" />
+    <None Remove="Resources\Fonts\Oswald-SemiBold.ttf" />
+    <None Remove="Resources\Images\ToDoList.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Fonts\Oswald-Bold.ttf" />
-    <Content Include="Fonts\Oswald-ExtraLight.ttf" />
-    <Content Include="Fonts\Oswald-Light.ttf" />
-    <Content Include="Fonts\Oswald-Medium.ttf" />
-    <Content Include="Fonts\Oswald-Regular.ttf" />
-    <Content Include="Fonts\Oswald-SemiBold.ttf" />
+    <Content Include="Resources\Fonts\Oswald-Bold.ttf" />
+    <Content Include="Resources\Fonts\Oswald-ExtraLight.ttf" />
+    <Content Include="Resources\Fonts\Oswald-Light.ttf" />
+    <Content Include="Resources\Fonts\Oswald-Medium.ttf" />
+    <Content Include="Resources\Fonts\Oswald-Regular.ttf" />
+    <Content Include="Resources\Fonts\Oswald-SemiBold.ttf" />
+    <Content Include="Resources\Images\ToDoList.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
